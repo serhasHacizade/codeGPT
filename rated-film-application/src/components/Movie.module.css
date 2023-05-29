@@ -1,0 +1,73 @@
+.movie {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #252525;
+    width: 1300px;
+    color: #fff;
+    margin: 0 auto 30px auto;
+}
+
+.imageContainer {
+    position: relative;
+    height: 100%;
+}
+
+.movie img {
+    width: 600px;
+    border-radius: 5px 5px 0 0;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlayButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.movieInfo {
+    text-align: left;
+}
+
+.movieInfo h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+    padding: 15px 10px;
+    display: flex;
+    font-size: 25px;
+}
+
+.span {
+    color: #ccac00;
+}
