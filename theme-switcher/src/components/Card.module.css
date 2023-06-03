@@ -1,0 +1,18 @@
+.card {
+  width: 400px;
+  height: 130px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  margin: 5rem auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.dark {
+  background-color: #252525;
+  color: #fff;
+}
