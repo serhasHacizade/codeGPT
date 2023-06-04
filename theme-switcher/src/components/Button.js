@@ -4,7 +4,6 @@ import { ThemeContext } from './ThemeContext';
 
 const Button = () => {
   const { toggleTheme } = useContext(ThemeContext);
-
   return (
     <button className={styles.button} onClick={toggleTheme}>Change Theme</button>
   );
